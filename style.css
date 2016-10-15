@@ -1,35 +1,42 @@
-            #matrix {
-                border: 1px solid black;
-                visibility: hidden;
-            }
+#matrix {
+    border: 1px solid black;
+    visibility: hidden;
+}
 
-            #gui{
-                padding: 5px;
-                padding-bottom: 10px;             
-            }
+#gui{
+    padding: 5px;
+    padding-bottom: 10px;             
+}
 
-            #solution{
-                padding:10px;
-                visibility: hidden;
-            }
+#solution{
+    padding:10px;
+    visibility: hidden;
+}
 
-            #solutionMatrix{
-                padding: 20px;
-                border: 4px solid black;
-                border-spacing:5px;
-            }
+#solutionMatrix{
+    padding: 20px;
+    border: 4px solid black;
+    border-spacing:5px;
+}
 
-            .inlineText{ 
-                padding-left:10px;
-                display: inline; 
-            }
+.inlineText{ 
+    padding-left:10px;
+    display: inline; 
+}
 
-            .shrunkenInput{
-                width: 60px;
-            }
-            
-            .paddedRow{
-                padding-left:20px;
-                padding-right:20px;
-                text-align:right;
-            }
+.shrunkenInput{
+    width: 60px;
+}
+
+.paddedRow{
+    padding-left:20px;
+    padding-right:20px;
+    text-align:right;
+}
+
+.customButton1{
+
+}
+
+.customButton1:hover{
+}
