@@ -18,6 +18,7 @@ html, body{
 }
 
 #footer {
+  border-top: solid #000000;
   margin-top:-50px;
   text-align: center;
 }
