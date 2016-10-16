@@ -8,18 +8,17 @@
     padding-bottom: 10px;             
 }
 
-body{
+html, body{
     height:100%;
 }
 
-#main{
+#wrap{
     min-height:100%;
-    padding-bottom:100px;
+    padding-bottom:-100px;
 }
 
 #footer {
   position: relative;
-  margin-top:-100px;
   height:100px;
   text-align: center;
 }
