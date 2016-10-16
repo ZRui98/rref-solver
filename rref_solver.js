@@ -4,12 +4,14 @@
             this.row=r;
         }
 
+        //Euclidean algorithm for finding GCD
         function gcd(first, second){
             if(second==0)
                 return first;
             return gcd(Math.abs(second),Math.abs(first%second));
         }
 
+        //fraction class implemented for use when displaying the answer    
         function fraction(n,d){
             var r = gcd(n,d);
             this.numerator = n/r;
