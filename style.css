@@ -25,6 +25,11 @@ html, body{
   text-align: center;
 }
 
+a{
+  color:black;
+  display: block;
+}
+
 #solution{
     visibility: hidden;
 }
