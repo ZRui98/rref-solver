@@ -1,5 +1,5 @@
 # rrefSolver
-RREF solver in standard js using the Gauss-Jordan method of bringing a matrix to RREF
+RREF solver in js using the Gauss-Jordan method of bringing a matrix to RREF
 
 #Issues
 currently does not work with decimals due to the way fraction objects & operations are coded
