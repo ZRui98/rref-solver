@@ -10,5 +10,5 @@ Integers and fractions are accepted.
 #Issues
 currently does not work with decimals due to the way fraction objects & operations are coded
 
-#Links
+#Resources
 Gauss-Jordan method: https://en.wikipedia.org/wiki/Gaussian_elimination
