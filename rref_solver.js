@@ -16,6 +16,10 @@
             var r = gcd(n,d);
             this.numerator = n/r;
             this.denominator = d/r;
+            if(this.denominator<0){
+                this.denominator = -this.denominator;
+                this.numerator = -this.numerator;
+            }
             this.evaluate = function(){
                 return this.numerator/this.denominator;
             }
