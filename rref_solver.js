@@ -16,7 +16,11 @@
             var r = gcd(n,d);
             this.numerator = n/r;
             this.denominator = d/r;
+<<<<<<< HEAD
+            if(this.denominator<=0){
+=======
             if(this.denominator<0){
+>>>>>>> 83a5363e580b3d4c195fe8bc11cdb830c1721334
                 this.denominator = -this.denominator;
                 this.numerator = -this.numerator;
             }
@@ -65,8 +69,13 @@
                 document.getElementById("matrix").style.visibility = "visible";
         }
 
+<<<<<<< HEAD
+        function fillTable(data,name){
+            var tbl = document.getElementById(name);
+=======
         function createSolutionTable(data){
             var tbl = document.getElementById('solutionMatrix');
+>>>>>>> 83a5363e580b3d4c195fe8bc11cdb830c1721334
             tbl.innerHTML='';
                 var tbdy = document.createElement('tbody');
                 for (var i = 0; i < data.length; i++) {
@@ -162,7 +171,11 @@
                         var fData = tbl.rows[i].cells[j].children[0].value.split('/')
                         rowData.push(new fraction(fData[0],fData[1]));
                     }else{
+<<<<<<< HEAD
+                        rowData.push(new fraction(parseInt(tbl.rows[i].cells[j].children[0].value)||0,1));
+=======
                         rowData.push(new fraction(eval(tbl.rows[i].cells[j].children[0].value)||0,1));
+>>>>>>> 83a5363e580b3d4c195fe8bc11cdb830c1721334
                     }
                 }
                 data.push(rowData);
@@ -171,8 +184,16 @@
         }
         function solve(){
             var data =getData();
+<<<<<<< HEAD
+            fillTable(data,"beforeMatrix");
+            document.getElementById("before").style.visibility = "visible";
+            bringToREF(data);
+            bringToRREF(data);
+            fillTable(data,"solutionMatrix");
+=======
             bringToREF(data);
             bringToRREF(data);
             createSolutionTable(data);
+>>>>>>> 83a5363e580b3d4c195fe8bc11cdb830c1721334
             document.getElementById("solution").style.visibility = "visible";
         }
