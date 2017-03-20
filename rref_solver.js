@@ -64,6 +64,8 @@
                 }
                 tbl.appendChild(tbdy);
                 document.getElementById("matrix").style.visibility = "visible";
+                document.getElementById("before").style.visibility = "hidden";
+                document.getElementById("solution").style.visibility = "hidden";
         }
 
         function fillTable(data,name){
