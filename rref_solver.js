@@ -28,7 +28,7 @@
            
         function add(firstFraction,secondFraction){
             var n = firstFraction.numerator*secondFraction.denominator+secondFraction.numerator*firstFraction.denominator;
-            var d = firstFraction.denominator*econdFraction.denominator;
+            var d = firstFraction.denominator*secondFraction.denominator;
             return new fraction(n,d);
         }
         function subtract(firstFraction,secondFraction){
